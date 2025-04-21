@@ -1,0 +1,23 @@
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.sublime*
+.idea/
+.vscode/
+/.vs
+debug.log
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Rust/Cargo
+/target/
+Cargo.lock
+/.tauri
+
+# Build outputs
+/dist/
+/dist-js/
+/lib/
